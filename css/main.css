@@ -1,0 +1,194 @@
+* {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    margin: 0;
+    box-sizing: border-box;
+    padding: 0;
+}
+
+/* Header */
+header nav {
+    background-color: black;
+}
+
+header nav ul {
+    list-style: none;
+    overflow: hidden;
+}
+
+header nav li {
+    float: left;
+    padding: 20px 30px;
+}
+
+header nav li.right {
+    float: right;
+}
+
+header nav img {
+    width: 50px;
+    transform: scale(1);
+    transition: transform 0.01s linear;
+}
+
+header nav img:hover {
+    transform: scale(0.9);
+    opacity: 50%;
+}
+
+#usernamedisplay {
+    color: white;
+    margin-top: 10px;
+    font-size: 24px;
+}
+
+/* Footer */
+footer {
+    background-color: black;
+    height: 50px;
+    margin-top: auto;
+}
+
+/* Main */
+body{
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+}
+
+main {
+    width: 60%;
+    margin: 0 auto;
+    margin-top: 40px;
+    padding: 50px 100px;
+    margin-bottom: 60px;
+    border: 1px solid lightgray;
+}
+
+h1 {
+    margin-bottom: 20px;
+}
+
+h2 {
+    margin-top: 40px;
+    margin-bottom: 10px;
+}
+
+
+a {
+    font-style: italic;
+    color: black;
+    text-decoration: none;
+}
+
+a:hover {
+    color: grey;
+}
+
+.error {
+    color: rgb(194, 2, 2);
+    display: block;
+}
+
+.message {
+    display: block;
+    margin-top: 10px;
+}
+
+.text {
+    border: 1px solid lightgray;
+    padding: 20px;
+}
+
+
+/* Form */
+fieldset {
+    border: 1px solid lightgray;
+    padding: 20px;
+    margin-top: 5px;
+}
+
+textarea {
+    resize: none;
+    border: 1px solid grey;
+    padding: 5px 10px;
+    outline: none;
+    width: 100%;
+}
+
+input[type=text], input[type=email], input[type=password] {
+    border: 1px solid grey;
+    padding: 5px 10px;
+    outline: none;
+    width: 100%;
+}
+
+button {
+    padding: 5px 20px;
+    background-color: white;
+    color: black;
+    border: 1px solid grey;
+    font-size: 16px;
+}
+
+button:hover {
+    cursor: pointer;
+    background-color: black;
+    color: white;
+}
+
+/* Links */
+.links {
+    list-style: none;
+    display: block;
+    
+}
+
+.links li {
+    display: inline;
+    padding: 10px;
+}
+
+.links li a img:hover {
+    opacity: 70%;
+}
+
+/* Table */
+table {
+    margin-top: 10px;
+    border-collapse: collapse;
+    width: 100%;
+    border: 1px solid lightgray;
+}
+
+tr {
+    border: 1px dotted lightgray;
+
+}
+
+tr:last-child {
+    border-bottom: none;
+}
+
+td {
+    padding: 10px 10px;
+}
+
+/* Comments */
+.comments {
+    margin-top: 40px;
+}
+
+.comment {
+    border: 1px solid lightgray;
+    padding: 20px;
+    margin-bottom: 10px;
+}
+
+.comment div {
+    color: grey;
+    margin-bottom: 5px;
+}
+
+.comment p {
+    word-break: break-all;
+}
